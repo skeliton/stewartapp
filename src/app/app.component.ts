@@ -9,7 +9,7 @@ import { LoggerService } from 'logger';
 export class AppComponent {
   title = 'Stewart App';
 
-  constructor(loggerService: LoggerService){
-    loggerService.log("----Log Start----");
+  constructor(private loggerService: LoggerService){
+    this.loggerService.log("----Log Start----");
   }
 }

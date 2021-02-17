@@ -18,6 +18,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SharedComponent } from './shared/shared.component';
 import { LoggerModule } from 'logger';
+import { MainViewComponent } from './dashboard/main-view/main-view.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,8 @@ import { LoggerModule } from 'logger';
     UsefultoolingComponent,
     PathNotFoundComponent,
     NavComponent,
-    SharedComponent
+    SharedComponent,
+    MainViewComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +45,10 @@ import { LoggerModule } from 'logger';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    LoggerModule
+    LoggerModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
