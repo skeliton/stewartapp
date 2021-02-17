@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExperimentalComponent } from './experimental/experimental.component';
 import { UsefultoolingComponent } from './usefultooling/usefultooling.component';
 import { PathNotFoundComponent } from './path-not-found/path-not-found.component';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PathNotFoundComponent } from './path-not-found/path-not-found.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]

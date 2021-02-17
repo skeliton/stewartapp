@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'usefultooling', component: UsefultoolingComponent },
   { path: 'experimental', component: ExperimentalComponent },
-  { path: '**', component: PathNotFoundComponent }
+  //{ path: '**', component: PathNotFoundComponent }
 ];
 
 @NgModule({
