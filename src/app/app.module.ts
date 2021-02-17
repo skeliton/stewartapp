@@ -8,6 +8,7 @@ import { ExperimentalComponent } from './experimental/experimental.component';
 import { UsefultoolingComponent } from './usefultooling/usefultooling.component';
 import { PathNotFoundComponent } from './path-not-found/path-not-found.component';
 import { AdminModule } from './admin/admin.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AdminModule } from './admin/admin.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule
+    AdminModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
